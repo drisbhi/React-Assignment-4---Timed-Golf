@@ -36,7 +36,7 @@ class Timer extends React.Component {
       document.addEventListener("keydown", this.keyListener);
   }
   componentDidMount() {
-    //document.addEventListener("keydown", this.keyListener);
+    document.addEventListener("keydown", this.keyListener);
   }
   componentDidUpdate() {
     if (this.state.x === 250 && this.state.y === 250) {
